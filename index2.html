@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about_me</title>
+    <link rel="stylesheet" href="/stule/stuli2.css">
+</head>
+<body class="home"> 
+    <nav class="conteiner">
+        <div class="inner">
+            <div class="logo">
+              <img src="/img/FIRST.png" alt=""width="100px" height="100px">
+            </div>
+            <ul class="menu">
+                <li> <a href="index1.html"> Головна</a></li>
+                <li> <a href="index2.html">Про мене</a> </li>
+                <li> <a href="">Мої проекти</a> </li>
+                <li> <a href="">Мої успіхи</a> </li>
+            </ul>
+        </div>
+        <hr>
+    </nav>
+    <section class="conteiner"> 
+         <article class="img_text" >
+           <img class="main-content-block" src="/img/fon_about-me.jpg" alt="" width="400"> 
+           <div class="centered">FanatiC GeaR</div>
+        </article> 
+        <article class="info">
+            <h1 class="info_info">Привіт я Andrey Інович</h1>
+            <div class="info_info-foto" >
+            <img class="intro_foto" src="/img/my_foto3.jpg">
+        </div>
+            <p class="info_tet">
+                Я хочу стати Front-end програмістом . Щоб стать успішним Front-end програмістом потрібно лише <br> уміть читать код і працювати в команді.
+            </p>
+            <p  class="info_tet">Я працюю інтернет провайдером , в крутій компанії <span>NashNet</span> </p>
+            <h2>ми знаходимся тут :</h2>
+            <div id="map" style="width:100%; height:500px; background:yellow">
+            </div>
+        </article>     
+    
+    </section>
+    
+    
+    <footer class="conteiner">
+        <div class="footer">
+            <div class="footer_img">
+               <img src="/img/footer.png" alt="" height="100px" width="150px">    
+            </div>
+            <div class="footer_text">
+               <h3>Всі права захищені</h3>
+            </div> 
+        </div>    
+    </footer>
+     <script>
+        function initMap() {
+         
+          const uluru = { lat: 50.6173225, lng: 26.226048};
+          
+          const map = new google.maps.Map(document.getElementById("map"), 
+           {
+            zoom: 17,
+            center: uluru,
+          });
+          
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+    </script>
+   
+        
+        <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1B_ZthCj1LYBxSlDdT0DJkf7MWCXLCPQ&callback=initMap&libraries=&v=weekly">
+      </script>
+        
+        
+</body>
+</html>

@@ -1,0 +1,109 @@
+.home{
+    background: url('/img/fon.jpg');
+    background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+.main-content-block{
+	border-radius: 60px;
+}
+.centered {
+		position: absolute;
+		bottom: 100px;
+		right: 50px;
+		font-size: 60px;
+	
+}
+.img_text{
+	position: relative;
+    text-align: right;
+    color: white;
+	margin-top: 50px;
+}
+.conteiner{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    padding: 20px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 2px solid black;*/
+
+}
+hr{
+    border: none;
+    background-color:black;
+    color:black;
+    height: 2px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    border: 2px solid yellow;
+    padding: 10px;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color:yellow;
+}
+/*li a{
+    background-color:blueviolet;
+}*/
+.menu li + li{
+    padding-left: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_text{
+    padding-top: 20px;
+}
+.info_info{
+    text-align: center;
+    font-weight: bold;
+    color: red
+    font-weight: bold;
+}
+.info_tet{
+    text-align: center;
+    font-weight: bold;
+    color:blue
+    font-weight: bold;
+}
+span{
+    color: red;
+}
+h2{
+    font-size: 18px;
+    color:rgb(99, 56, 7);
+    font-weight: bold;
+}
+.intro_foto{
+
+    border-radius: 30px;
+margin: 0px 20px 0px 20px;
+width: 240px ;
+height: 320px;
+}
+.info_info-foto{
+    isplay: block;    
+  text-align: center;
+    
+}

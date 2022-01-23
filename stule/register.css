@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:16px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    border: 3px solid #305070;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+input:focus{
+    outline: none;
+    border: 3px solid #120225
+}
+form{
+    background:#c09c9c;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.conteiner{
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background:cornsilk;
+    box-shadow: 0 4px 70px 6px #305070;
+}
+.form_title{
+    color: #305070;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+.form_conteiner{
+    position: relative;
+    z-index: 2;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px #305070;
+    box-shadow: 0 4px 70px 6px #305070;
+    max-width: 500px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.form_fiel{
+    margin-bottom: 13px;
+}
+.button{
+    width: 100%;
+    display: block;
+    height: 35px;
+    background: #247fff;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #042047;
+}
+.button_google{
+    width: 100%;
+    display: block;
+    height: 35px;
+    background: #80868d;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
+}
+.button_google:hover{
+    background-color: #042047;
+}
+.eneybel{
+    font-size: 14px;
+    color:tomato;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
